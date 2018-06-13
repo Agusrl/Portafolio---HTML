@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+html{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 .lateral{
     background-color: rgb(204, 242, 229);
     bottom: 0;
@@ -23,9 +26,8 @@
 }
 .perfil_nombres{
     color: rgb(97, 88, 88);
-    font-size: 20px;
-    margin-left: .5em;
-    width: 250px;
+    font-size: 22px;
+    margin-left: -0.5em;
 }
 .perfil_nombres, .perfil_circulo{
     display: inline-block;
@@ -42,7 +44,6 @@
 }
 /* Habilidades */
 .habilidades{
-    display: flex;
     padding: 0;
     justify-content: space-between;
     margin: 10px auto;
@@ -55,4 +56,33 @@
     font-size: 12px;
     text-transform: uppercase;
     padding: .5em;
+}
+.habilidad--proyecto{
+    background-color: rgb(70, 136, 138);
+    color: aliceblue;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: .5em;
+}
+/* Proyecto */
+.proyectos{
+    margin-left: 350px;
+    padding: 1em;
+    display: table;
+}
+.proyecto{
+    display: table-cell;
+    padding: 1em;
+    width: 50%;
+}
+.proyecto_imagen{
+    width: 100%;
+}
+.proyecto_titulo{
+    color: black;
+    font-size: 18px;
+}
+.proyecto_descripcion{
+    color: grey;
 }
